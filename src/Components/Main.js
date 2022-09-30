@@ -144,6 +144,7 @@ const Main = ({start, pause, reset, setCurrentScore, setBestScore, currentScore,
   })()
  
   const startFreshGame = () => {
+    reset()
     AlreadyClicked = []
     NotClicked = [...Images]
     shuffleCards()
