@@ -102,7 +102,6 @@ word-wrap: break-word;
 `
 
 const HighscoreMenu = styled.div`
-  margin: 2em;
   display: flex;
   gap: 20px;
   align-items: center;
